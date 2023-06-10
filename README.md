@@ -12,7 +12,7 @@ be designed to fulfil the requirement of maintaining and configuring the plots o
 amount of water required for each irrigation period.
 The irrigation system should have integration interface with a sensor device to direct letting the sensor to irrigate based on
 the configured time slots/amount of water.
-Requirements' Document can be found [here](Backend_Full-stack_exercise_v5.0.pdf)
+Requirements' Document can be found [here](./Backend_Full-stack%20exercise_v5.0.pdf)
 
 ---
 
@@ -22,7 +22,7 @@ The repository contains the following files:
 
 - README.md: This file
 - [UML diagram](./uml_diagram.png): The UML diagram for the irrigation system
-- [Folder Structure](./folder_structur.pdf): The folder structure for the irrigation system
+- [Folder Structure](./folder_structure.pdf): The folder structure for the irrigation system
 - Task: Folder containing Spring Boot project
 
 ---
@@ -37,7 +37,7 @@ To install the irrigation system simulation, follow these steps:
 4. The application runs on port 3052.
 5. The Swagger documentation can be found at [/swagger-ui/index.html#](http://localhost:3052/swagger-ui/index.html#/).
 6. The H2 Database console can be found at [/h2-console](http://localhost:3052/h2-console).
-   - JDBC URL: [jdbc:h2:file:./mydatabase](mydatabase.mv.db)
+   - JDBC URL: [jdbc:h2:file:./mydatabase](./mydatabase.mv.db)
    - User Name: sa
    - Password: (leave blank)
 
@@ -60,9 +60,9 @@ The irrigation system simulation provides a REST API for interacting with the sy
   >
   > ### Enums: <br/>
   >
-  > ### Crop Types (add link) <br/>
+  > ### [Crop Types](./src/main/java/io/irrigation/task/model/enums/CropType.java) <br/>
   >
-  > ### Land Types (add link) <br/>
+  > ### [Land Types](./src/main/java/io/irrigation/task/model/enums/LandType.java) <br/>
 
 - POST /api/lands/{id}/configure:
 
