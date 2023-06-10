@@ -58,11 +58,11 @@ The irrigation system simulation provides a REST API for interacting with the sy
 
   > Create land and automatically create a sensor assigned to this land. The sesnor's property "water dispense per second" is also specified in the request body. This land is still not configured so no scheduled watering slots are assigned to it. </br>
   >
-  > ### Enums: <br/>
+  > #### Enums: <br/>
   >
-  > ### [Crop Types](./src/main/java/io/irrigation/task/model/enums/CropType.java) <br/>
+  > #### [Crop Types](./src/main/java/io/irrigation/task/model/enums/CropType.java) <br/>
   >
-  > ### [Land Types](./src/main/java/io/irrigation/task/model/enums/LandType.java) <br/>
+  > #### [Land Types](./src/main/java/io/irrigation/task/model/enums/LandType.java) <br/>
 
 - POST /api/lands/{id}/configure:
 
